@@ -1,0 +1,52 @@
+.usersList{
+    background-color: white;
+    min-height: 100vh;
+}
+.userCardContainer{
+    padding: 12px 17px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(11, 49, 87, 0.1);
+
+}
+
+.checkBox{
+    background-color: #DBE0E6;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userInfoWrapper{
+    margin-left: 17px;
+}
+.avatar{
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+}
+
+h1{
+    color: #0B3157;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    line-height: 19px;
+    width: 190px;
+    text-align: left;
+}
+h2{
+    color: #0B3157;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: 17px;
+    opacity: 0.5;
+    width: 190px;
+    text-align: left;
+}
